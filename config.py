@@ -1,4 +1,6 @@
-TOKEN = "8833567272:AAFaB7jLUKJm2IA-sA4E0Jwe4w_pXH7VS_8"
+import os
+
+TOKEN = os.getenv("BOT_TOKEN")
 
 SOPORTE = "@soportenissi"
 
