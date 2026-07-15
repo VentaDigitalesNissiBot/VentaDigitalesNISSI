@@ -1,4 +1,10 @@
+from dotenv import load_dotenv
+
+load_dotenv()
+
 import asyncio
+
+from aiogram import Bot, Dispatcher, F
 
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import CommandStart
